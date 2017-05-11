@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		CD10515E1EC194A10094659C /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD10515D1EC194A10094659C /* PaymentViewController.swift */; };
+		CD3349871EC43D3C00FB011A /* ConsultantLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3349861EC43D3C00FB011A /* ConsultantLoginViewController.swift */; };
+		CD3349891EC442D000FB011A /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3349881EC442D000FB011A /* Untitled.png */; };
+		CD33498B1EC46AA800FB011A /* ConsultantRegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD33498A1EC46AA800FB011A /* ConsultantRegViewController.swift */; };
+		CD33498D1EC472BE00FB011A /* ConsRegDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD33498C1EC472BE00FB011A /* ConsRegDetailViewController.swift */; };
+		CD33498F1EC494D800FB011A /* ConsultantSubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD33498E1EC494D800FB011A /* ConsultantSubmitViewController.swift */; };
 		CD51E1951EC070F0002B8287 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51E1941EC070F0002B8287 /* MoreViewController.swift */; };
 		CDB5FA911EC31E7B0007CC1D /* finces.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDB5FA901EC31E7B0007CC1D /* finces.jpg */; };
 		CDB5FA931EC31EB90007CC1D /* fondos-inversion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDB5FA921EC31EB90007CC1D /* fondos-inversion.jpg */; };
@@ -16,7 +21,7 @@
 		CDB5FA991EC336820007CC1D /* RegisterCustViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5FA981EC336820007CC1D /* RegisterCustViewController.swift */; };
 		CDF2F8041EBDB03C00E45D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2F8031EBDB03C00E45D64 /* AppDelegate.swift */; };
 		CDF2F8061EBDB03C00E45D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2F8051EBDB03C00E45D64 /* ViewController.swift */; };
-		CDF2F8091EBDB03D00E45D64 /*  .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF2F8071EBDB03D00E45D64 /*  .storyboard */; };
+		CDF2F8091EBDB03D00E45D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF2F8071EBDB03D00E45D64 /* Main.storyboard */; };
 		CDF2F80C1EBDB03D00E45D64 /* Finaqa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDF2F80A1EBDB03D00E45D64 /* Finaqa.xcdatamodeld */; };
 		CDF2F80E1EBDB03D00E45D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF2F80D1EBDB03D00E45D64 /* Assets.xcassets */; };
 		CDF2F8111EBDB03D00E45D64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF2F80F1EBDB03D00E45D64 /* LaunchScreen.storyboard */; };
@@ -27,6 +32,11 @@
 
 /* Begin PBXFileReference section */
 		CD10515D1EC194A10094659C /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		CD3349861EC43D3C00FB011A /* ConsultantLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultantLoginViewController.swift; sourceTree = "<group>"; };
+		CD3349881EC442D000FB011A /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
+		CD33498A1EC46AA800FB011A /* ConsultantRegViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultantRegViewController.swift; sourceTree = "<group>"; };
+		CD33498C1EC472BE00FB011A /* ConsRegDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsRegDetailViewController.swift; sourceTree = "<group>"; };
+		CD33498E1EC494D800FB011A /* ConsultantSubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultantSubmitViewController.swift; sourceTree = "<group>"; };
 		CD51E1941EC070F0002B8287 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		CDB5FA901EC31E7B0007CC1D /* finces.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = finces.jpg; sourceTree = "<group>"; };
 		CDB5FA921EC31EB90007CC1D /* fondos-inversion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos-inversion.jpg"; sourceTree = "<group>"; };
@@ -36,7 +46,7 @@
 		CDF2F8001EBDB03C00E45D64 /* Finaqa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finaqa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF2F8031EBDB03C00E45D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDF2F8051EBDB03C00E45D64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDF2F8081EBDB03D00E45D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/ .storyboard"; sourceTree = "<group>"; };
+		CDF2F8081EBDB03D00E45D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDF2F80B1EBDB03D00E45D64 /* Finaqa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Finaqa.xcdatamodel; sourceTree = "<group>"; };
 		CDF2F80D1EBDB03D00E45D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF2F8101EBDB03D00E45D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -84,9 +94,13 @@
 				CD10515D1EC194A10094659C /* PaymentViewController.swift */,
 				CDB5FA941EC320EE0007CC1D /* LoginViewController.swift */,
 				CDB5FA981EC336820007CC1D /* RegisterCustViewController.swift */,
+				CD3349861EC43D3C00FB011A /* ConsultantLoginViewController.swift */,
+				CD33498A1EC46AA800FB011A /* ConsultantRegViewController.swift */,
+				CD33498C1EC472BE00FB011A /* ConsRegDetailViewController.swift */,
+				CD33498E1EC494D800FB011A /* ConsultantSubmitViewController.swift */,
 				CDB5FA961EC322770007CC1D /* Extension.swift */,
 				CDF2F8181EBDB4EB00E45D64 /* Resources */,
-				CDF2F8071EBDB03D00E45D64 /*  .storyboard */,
+				CDF2F8071EBDB03D00E45D64 /* Main.storyboard */,
 				CDF2F80D1EBDB03D00E45D64 /* Assets.xcassets */,
 				CDF2F80F1EBDB03D00E45D64 /* LaunchScreen.storyboard */,
 				CDF2F8121EBDB03D00E45D64 /* Info.plist */,
@@ -100,6 +114,7 @@
 			children = (
 				CDF2F8191EBDB50A00E45D64 /* login_screen_background.jpg */,
 				CDB5FA901EC31E7B0007CC1D /* finces.jpg */,
+				CD3349881EC442D000FB011A /* Untitled.png */,
 				CDB5FA921EC31EB90007CC1D /* fondos-inversion.jpg */,
 			);
 			name = Resources;
@@ -169,8 +184,9 @@
 				CDF2F81A1EBDB50A00E45D64 /* login_screen_background.jpg in Resources */,
 				CDB5FA931EC31EB90007CC1D /* fondos-inversion.jpg in Resources */,
 				CDB5FA911EC31E7B0007CC1D /* finces.jpg in Resources */,
+				CD3349891EC442D000FB011A /* Untitled.png in Resources */,
 				CDF2F80E1EBDB03D00E45D64 /* Assets.xcassets in Resources */,
-				CDF2F8091EBDB03D00E45D64 /*  .storyboard in Resources */,
+				CDF2F8091EBDB03D00E45D64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDB5FA971EC322770007CC1D /* Extension.swift in Sources */,
+				CD33498F1EC494D800FB011A /* ConsultantSubmitViewController.swift in Sources */,
 				CD10515E1EC194A10094659C /* PaymentViewController.swift in Sources */,
 				CDF2F81C1EBDD79100E45D64 /* TabBarViewController.swift in Sources */,
 				CDF2F80C1EBDB03D00E45D64 /* Finaqa.xcdatamodeld in Sources */,
@@ -189,20 +206,23 @@
 				CDB5FA951EC320EE0007CC1D /* LoginViewController.swift in Sources */,
 				CD51E1951EC070F0002B8287 /* MoreViewController.swift in Sources */,
 				CDF2F8061EBDB03C00E45D64 /* ViewController.swift in Sources */,
+				CD33498B1EC46AA800FB011A /* ConsultantRegViewController.swift in Sources */,
 				CDB5FA991EC336820007CC1D /* RegisterCustViewController.swift in Sources */,
 				CDF2F8041EBDB03C00E45D64 /* AppDelegate.swift in Sources */,
+				CD3349871EC43D3C00FB011A /* ConsultantLoginViewController.swift in Sources */,
+				CD33498D1EC472BE00FB011A /* ConsRegDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDF2F8071EBDB03D00E45D64 /*  .storyboard */ = {
+		CDF2F8071EBDB03D00E45D64 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CDF2F8081EBDB03D00E45D64 /* Base */,
 			);
-			name = " .storyboard";
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		CDF2F80F1EBDB03D00E45D64 /* LaunchScreen.storyboard */ = {
