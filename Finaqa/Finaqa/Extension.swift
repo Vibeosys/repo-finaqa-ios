@@ -57,8 +57,14 @@ extension UIView
         self.layer.borderWidth = 1
         self.layer.cornerRadius = 10
         self.layer.masksToBounds = true
-        
-}
+    }
+    func roundedGreyBorder()
+    {
+        self.layer.borderColor = UIColor.lightGray.cgColor
+        self.layer.borderWidth = 1
+        self.layer.cornerRadius = 10
+        self.layer.masksToBounds = true
+    }
 }
 
 
