@@ -31,7 +31,8 @@ class AnswerViewController: UIViewController,UITableViewDataSource,UITableViewDe
         return 2
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell1", for: indexPath) as UITableViewCell 
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell1", for: indexPath) as! CustAnswerTableViewCell
+        cell.subView.roundedGreyBorder()
     
         return cell 
     }

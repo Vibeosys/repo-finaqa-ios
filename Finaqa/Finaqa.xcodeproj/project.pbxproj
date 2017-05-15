@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CD10515E1EC194A10094659C /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD10515D1EC194A10094659C /* PaymentViewController.swift */; };
+		CD1EAE381EC98AEA006B57C9 /* ConsHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EAE371EC98AE9006B57C9 /* ConsHistoryViewController.swift */; };
+		CD1EAE3A1EC98EB0006B57C9 /* ConsAnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EAE391EC98EB0006B57C9 /* ConsAnswerTableViewCell.swift */; };
+		CD1EAE3C1EC98ED6006B57C9 /* ConsHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EAE3B1EC98ED6006B57C9 /* ConsHistoryTableViewCell.swift */; };
+		CD1EAE3E1EC995A3006B57C9 /* CustPaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EAE3D1EC995A3006B57C9 /* CustPaymentTableViewCell.swift */; };
+		CD1EAE401EC9AA72006B57C9 /* CustAnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EAE3F1EC9AA71006B57C9 /* CustAnswerTableViewCell.swift */; };
+		CD1EAE421EC9B698006B57C9 /* ConsMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EAE411EC9B698006B57C9 /* ConsMoreViewController.swift */; };
+		CD1EAE441EC9BAA8006B57C9 /* ConsMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EAE431EC9BAA8006B57C9 /* ConsMoreTableViewCell.swift */; };
+		CD1EAE461EC9CA0C006B57C9 /* CustMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EAE451EC9CA0C006B57C9 /* CustMoreTableViewCell.swift */; };
 		CD3349871EC43D3C00FB011A /* ConsultantLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3349861EC43D3C00FB011A /* ConsultantLoginViewController.swift */; };
 		CD3349891EC442D000FB011A /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3349881EC442D000FB011A /* Untitled.png */; };
 		CD33498B1EC46AA800FB011A /* ConsultantRegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD33498A1EC46AA800FB011A /* ConsultantRegViewController.swift */; };
@@ -43,6 +51,14 @@
 
 /* Begin PBXFileReference section */
 		CD10515D1EC194A10094659C /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		CD1EAE371EC98AE9006B57C9 /* ConsHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsHistoryViewController.swift; sourceTree = "<group>"; };
+		CD1EAE391EC98EB0006B57C9 /* ConsAnswerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsAnswerTableViewCell.swift; sourceTree = "<group>"; };
+		CD1EAE3B1EC98ED6006B57C9 /* ConsHistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		CD1EAE3D1EC995A3006B57C9 /* CustPaymentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustPaymentTableViewCell.swift; sourceTree = "<group>"; };
+		CD1EAE3F1EC9AA71006B57C9 /* CustAnswerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustAnswerTableViewCell.swift; sourceTree = "<group>"; };
+		CD1EAE411EC9B698006B57C9 /* ConsMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsMoreViewController.swift; sourceTree = "<group>"; };
+		CD1EAE431EC9BAA8006B57C9 /* ConsMoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsMoreTableViewCell.swift; sourceTree = "<group>"; };
+		CD1EAE451EC9CA0C006B57C9 /* CustMoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustMoreTableViewCell.swift; sourceTree = "<group>"; };
 		CD3349861EC43D3C00FB011A /* ConsultantLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultantLoginViewController.swift; sourceTree = "<group>"; };
 		CD3349881EC442D000FB011A /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
 		CD33498A1EC46AA800FB011A /* ConsultantRegViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultantRegViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +109,12 @@
 			isa = PBXGroup;
 			children = (
 				CD79A4941EC71E810078CDAE /* ConsPaymentTableViewCell.swift */,
+				CD1EAE391EC98EB0006B57C9 /* ConsAnswerTableViewCell.swift */,
+				CD1EAE3B1EC98ED6006B57C9 /* ConsHistoryTableViewCell.swift */,
+				CD1EAE3D1EC995A3006B57C9 /* CustPaymentTableViewCell.swift */,
+				CD1EAE3F1EC9AA71006B57C9 /* CustAnswerTableViewCell.swift */,
+				CD1EAE431EC9BAA8006B57C9 /* ConsMoreTableViewCell.swift */,
+				CD1EAE451EC9CA0C006B57C9 /* CustMoreTableViewCell.swift */,
 			);
 			name = TableViewCell;
 			sourceTree = "<group>";
@@ -133,6 +155,8 @@
 				CD79A48B1EC6D5A40078CDAE /* QueryAnswerViewController.swift */,
 				CD79A48D1EC6F16F0078CDAE /* ConstAnswerViewController.swift */,
 				CD79A4911EC71C1D0078CDAE /* ConsPaymentViewController.swift */,
+				CD1EAE371EC98AE9006B57C9 /* ConsHistoryViewController.swift */,
+				CD1EAE411EC9B698006B57C9 /* ConsMoreViewController.swift */,
 				CDB5FA961EC322770007CC1D /* Extension.swift */,
 				CD79A4931EC71E5A0078CDAE /* TableViewCell */,
 				CDF2F8181EBDB4EB00E45D64 /* Resources */,
@@ -243,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1EAE3A1EC98EB0006B57C9 /* ConsAnswerTableViewCell.swift in Sources */,
 				CDB5FA971EC322770007CC1D /* Extension.swift in Sources */,
 				CD33498F1EC494D800FB011A /* ConsultantSubmitViewController.swift in Sources */,
 				CD10515E1EC194A10094659C /* PaymentViewController.swift in Sources */,
@@ -250,6 +275,8 @@
 				CDF2F81C1EBDD79100E45D64 /* TabBarViewController.swift in Sources */,
 				CD79A4921EC71C1D0078CDAE /* ConsPaymentViewController.swift in Sources */,
 				CDF2F80C1EBDB03D00E45D64 /* Finaqa.xcdatamodeld in Sources */,
+				CD1EAE381EC98AEA006B57C9 /* ConsHistoryViewController.swift in Sources */,
+				CD1EAE401EC9AA72006B57C9 /* CustAnswerTableViewCell.swift in Sources */,
 				CDF2F81E1EBDE51100E45D64 /* AnswerViewController.swift in Sources */,
 				CDB5FA951EC320EE0007CC1D /* LoginViewController.swift in Sources */,
 				CD79A4971EC73DC20078CDAE /* CustConsultingViewController.swift in Sources */,
@@ -258,10 +285,15 @@
 				CD33498B1EC46AA800FB011A /* ConsultantRegViewController.swift in Sources */,
 				CDB5FA991EC336820007CC1D /* RegisterCustViewController.swift in Sources */,
 				CDF2F8041EBDB03C00E45D64 /* AppDelegate.swift in Sources */,
+				CD1EAE3E1EC995A3006B57C9 /* CustPaymentTableViewCell.swift in Sources */,
+				CD1EAE461EC9CA0C006B57C9 /* CustMoreTableViewCell.swift in Sources */,
 				CD3349871EC43D3C00FB011A /* ConsultantLoginViewController.swift in Sources */,
 				CD33498D1EC472BE00FB011A /* ConsRegDetailViewController.swift in Sources */,
+				CD1EAE441EC9BAA8006B57C9 /* ConsMoreTableViewCell.swift in Sources */,
 				CD79A48A1EC6D1740078CDAE /* QueryViewController.swift in Sources */,
+				CD1EAE421EC9B698006B57C9 /* ConsMoreViewController.swift in Sources */,
 				CD79A48E1EC6F16F0078CDAE /* ConstAnswerViewController.swift in Sources */,
+				CD1EAE3C1EC98ED6006B57C9 /* ConsHistoryTableViewCell.swift in Sources */,
 				CD79A48C1EC6D5A40078CDAE /* QueryAnswerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

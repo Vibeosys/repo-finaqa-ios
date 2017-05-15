@@ -27,7 +27,8 @@ class PaymentViewController: UIViewController,UITableViewDataSource,UITableViewD
         return 2
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustPaymentTableViewCell
+        cell.subView.roundedGreyBorder() 
         
         return cell
     }
