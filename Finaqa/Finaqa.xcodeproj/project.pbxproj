@@ -33,6 +33,11 @@
 		CD79A4921EC71C1D0078CDAE /* ConsPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD79A4911EC71C1D0078CDAE /* ConsPaymentViewController.swift */; };
 		CD79A4951EC71E810078CDAE /* ConsPaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD79A4941EC71E810078CDAE /* ConsPaymentTableViewCell.swift */; };
 		CD79A4971EC73DC20078CDAE /* CustConsultingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD79A4961EC73DC20078CDAE /* CustConsultingViewController.swift */; };
+		CDB3D2411ECAC772008F698F /* Logo-Actual-Size.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB3D2401ECAC772008F698F /* Logo-Actual-Size.png */; };
+		CDB3D2431ECAE5FC008F698F /* quora-128.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB3D2421ECAE5FB008F698F /* quora-128.png */; };
+		CDB3D2451ECAEBC2008F698F /* ConsTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3D2441ECAEBC2008F698F /* ConsTabBarViewController.swift */; };
+		CDB3D24B1ECB28EB008F698F /* Right.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB3D24A1ECB28EB008F698F /* Right.png */; };
+		CDB3D24D1ECB29F4008F698F /* chop_left.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB3D24C1ECB29F4008F698F /* chop_left.png */; };
 		CDB5FA911EC31E7B0007CC1D /* finces.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDB5FA901EC31E7B0007CC1D /* finces.jpg */; };
 		CDB5FA931EC31EB90007CC1D /* fondos-inversion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDB5FA921EC31EB90007CC1D /* fondos-inversion.jpg */; };
 		CDB5FA951EC320EE0007CC1D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5FA941EC320EE0007CC1D /* LoginViewController.swift */; };
@@ -76,6 +81,11 @@
 		CD79A4911EC71C1D0078CDAE /* ConsPaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsPaymentViewController.swift; sourceTree = "<group>"; };
 		CD79A4941EC71E810078CDAE /* ConsPaymentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsPaymentTableViewCell.swift; sourceTree = "<group>"; };
 		CD79A4961EC73DC20078CDAE /* CustConsultingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustConsultingViewController.swift; sourceTree = "<group>"; };
+		CDB3D2401ECAC772008F698F /* Logo-Actual-Size.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo-Actual-Size.png"; sourceTree = "<group>"; };
+		CDB3D2421ECAE5FB008F698F /* quora-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quora-128.png"; sourceTree = "<group>"; };
+		CDB3D2441ECAEBC2008F698F /* ConsTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsTabBarViewController.swift; sourceTree = "<group>"; };
+		CDB3D24A1ECB28EB008F698F /* Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Right.png; sourceTree = "<group>"; };
+		CDB3D24C1ECB29F4008F698F /* chop_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chop_left.png; sourceTree = "<group>"; };
 		CDB5FA901EC31E7B0007CC1D /* finces.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = finces.jpg; sourceTree = "<group>"; };
 		CDB5FA921EC31EB90007CC1D /* fondos-inversion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos-inversion.jpg"; sourceTree = "<group>"; };
 		CDB5FA941EC320EE0007CC1D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +151,7 @@
 				CDF2F8031EBDB03C00E45D64 /* AppDelegate.swift */,
 				CDF2F8051EBDB03C00E45D64 /* ViewController.swift */,
 				CDF2F81B1EBDD79100E45D64 /* TabBarViewController.swift */,
+				CDB3D2441ECAEBC2008F698F /* ConsTabBarViewController.swift */,
 				CDF2F81D1EBDE51100E45D64 /* AnswerViewController.swift */,
 				CD51E1941EC070F0002B8287 /* MoreViewController.swift */,
 				CD10515D1EC194A10094659C /* PaymentViewController.swift */,
@@ -172,6 +183,10 @@
 		CDF2F8181EBDB4EB00E45D64 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CDB3D24C1ECB29F4008F698F /* chop_left.png */,
+				CDB3D24A1ECB28EB008F698F /* Right.png */,
+				CDB3D2421ECAE5FB008F698F /* quora-128.png */,
+				CDB3D2401ECAC772008F698F /* Logo-Actual-Size.png */,
 				CDF2F8191EBDB50A00E45D64 /* login_screen_background.jpg */,
 				CDB5FA901EC31E7B0007CC1D /* finces.jpg */,
 				CD3349881EC442D000FB011A /* Untitled.png */,
@@ -249,9 +264,13 @@
 				CDF2F81A1EBDB50A00E45D64 /* login_screen_background.jpg in Resources */,
 				CD79A4901EC6FB360078CDAE /* user.png in Resources */,
 				CD456D9C1EC5E5840006F788 /* ic_money_100.png in Resources */,
+				CDB3D24D1ECB29F4008F698F /* chop_left.png in Resources */,
 				CD456DA01EC5E5980006F788 /* ic_expert_meeting_100.png in Resources */,
+				CDB3D2411ECAC772008F698F /* Logo-Actual-Size.png in Resources */,
 				CDB5FA931EC31EB90007CC1D /* fondos-inversion.jpg in Resources */,
 				CDB5FA911EC31E7B0007CC1D /* finces.jpg in Resources */,
+				CDB3D24B1ECB28EB008F698F /* Right.png in Resources */,
+				CDB3D2431ECAE5FC008F698F /* quora-128.png in Resources */,
 				CD3349891EC442D000FB011A /* Untitled.png in Resources */,
 				CDF2F80E1EBDB03D00E45D64 /* Assets.xcassets in Resources */,
 				CD456D9E1EC5E58F0006F788 /* ic_experties_100.png in Resources */,
@@ -283,6 +302,7 @@
 				CD51E1951EC070F0002B8287 /* MoreViewController.swift in Sources */,
 				CDF2F8061EBDB03C00E45D64 /* ViewController.swift in Sources */,
 				CD33498B1EC46AA800FB011A /* ConsultantRegViewController.swift in Sources */,
+				CDB3D2451ECAEBC2008F698F /* ConsTabBarViewController.swift in Sources */,
 				CDB5FA991EC336820007CC1D /* RegisterCustViewController.swift in Sources */,
 				CDF2F8041EBDB03C00E45D64 /* AppDelegate.swift in Sources */,
 				CD1EAE3E1EC995A3006B57C9 /* CustPaymentTableViewCell.swift in Sources */,

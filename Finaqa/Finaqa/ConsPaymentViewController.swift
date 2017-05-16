@@ -16,6 +16,7 @@ class ConsPaymentViewController: UIViewController,UITableViewDelegate,UITableVie
         super.viewDidLoad()
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        self.setNavigationImage()
         
         
     }

@@ -15,6 +15,7 @@ class ConstAnswerViewController: UIViewController,UITableViewDataSource,UITableV
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
+        self.setNavigationImage()
     }
 
     override func didReceiveMemoryWarning() {

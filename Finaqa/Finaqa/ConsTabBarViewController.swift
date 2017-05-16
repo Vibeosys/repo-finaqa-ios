@@ -1,17 +1,18 @@
 //
-//  TabBarViewController.swift
+//  ConsTabBarViewController.swift
 //  Finaqa
 //
-//  Created by Prakash Sabale on 06/05/17.
+//  Created by Prakash Sabale on 16/05/17.
 //  Copyright © 2017 Navik financial advisory. All rights reserved.
 //
 
 import UIKit
 
-class TabBarViewController: UITabBarController {
+class ConsTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         UITabBar.appearance().tintColor = UIColor.white
         
         UITabBar.appearance().selectionIndicatorImage = UIImage().makeImageWithColorAndSize(color: UIColor.red, size: CGSize.init(width: tabBar.frame.width/4, height: tabBar.frame.height))

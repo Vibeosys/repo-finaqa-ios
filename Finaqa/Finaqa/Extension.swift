@@ -66,5 +66,29 @@ extension UIView
         self.layer.masksToBounds = true
     }
 }
+extension UIViewController
+{
+    func setNavigationImage()
+    {
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 90, height: 45))
+        imageView.contentMode = .scaleAspectFit
+        let image = UIImage(named: "Logo-Actual-Size.png")
+        imageView.image = image
+        navigationItem.titleView = imageView
+    }
+}
+
+extension UIImage
+{
+    func makeImageWithColorAndSize(color: UIColor, size: CGSize) -> UIImage {
+        UIGraphicsBeginImageContextWithOptions(size, false, 0)
+        color.setFill()
+        UIRectFill(CGRect.init(x: 0, y: 0, width: size.width, height: size.height))
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image!
+    }
+
+}
 
 

@@ -17,6 +17,8 @@ class AnswerViewController: UIViewController,UITableViewDataSource,UITableViewDe
         tableView.delegate = self
         tableView.dataSource = self
         
+        self.setNavigationImage()
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -12,11 +12,14 @@ class MoreViewController: UIViewController,UITableViewDataSource,UITableViewDele
     
   
     @IBOutlet var tableView: UITableView!
-     var firstSectionItem : Array = ["About us","Contact us","My profile","Change password"]
+    let data = [["About us","Contact us"], ["My profile","Change password","Bank details"]]
+    let headerTitles = ["Company Information", "My profile"]
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        
+        self.setNavigationImage()
         
     }
 
@@ -24,15 +27,30 @@ class MoreViewController: UIViewController,UITableViewDataSource,UITableViewDele
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return data.count
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return firstSectionItem.count
+        return data[section].count
         
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustMoreTableViewCell
-        cell.nameLabel.text = self.firstSectionItem[indexPath.row]
+        cell.nameLabel.text = self.data[indexPath.section][indexPath.row]
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if section < headerTitles.count {
+            return headerTitles[section]
+        }
+        
+        return nil
+    }
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 40
     }
     
 }

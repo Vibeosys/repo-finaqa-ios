@@ -15,6 +15,7 @@ class PaymentViewController: UIViewController,UITableViewDataSource,UITableViewD
         super.viewDidLoad()
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        self.setNavigationImage()
 
         
     }
