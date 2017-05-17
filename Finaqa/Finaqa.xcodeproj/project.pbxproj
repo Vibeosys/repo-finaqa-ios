@@ -16,6 +16,11 @@
 		CD1EAE421EC9B698006B57C9 /* ConsMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EAE411EC9B698006B57C9 /* ConsMoreViewController.swift */; };
 		CD1EAE441EC9BAA8006B57C9 /* ConsMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EAE431EC9BAA8006B57C9 /* ConsMoreTableViewCell.swift */; };
 		CD1EAE461EC9CA0C006B57C9 /* CustMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EAE451EC9CA0C006B57C9 /* CustMoreTableViewCell.swift */; };
+		CD2F157D1ECC1FEE008D7D31 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F157C1ECC1FEE008D7D31 /* ProfileViewController.swift */; };
+		CD2F157F1ECC22B1008D7D31 /* ic_login_consultant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD2F157E1ECC22B1008D7D31 /* ic_login_consultant.jpg */; };
+		CD2F15811ECC25BD008D7D31 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F15801ECC25BD008D7D31 /* ChangePasswordViewController.swift */; };
+		CD2F15831ECC301E008D7D31 /* Final-Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD2F15821ECC301E008D7D31 /* Final-Logo.jpg */; };
+		CD2F15851ECC313E008D7D31 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2F15841ECC313E008D7D31 /* AboutUsViewController.swift */; };
 		CD3349871EC43D3C00FB011A /* ConsultantLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3349861EC43D3C00FB011A /* ConsultantLoginViewController.swift */; };
 		CD3349891EC442D000FB011A /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3349881EC442D000FB011A /* Untitled.png */; };
 		CD33498B1EC46AA800FB011A /* ConsultantRegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD33498A1EC46AA800FB011A /* ConsultantRegViewController.swift */; };
@@ -38,7 +43,7 @@
 		CDB3D2451ECAEBC2008F698F /* ConsTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3D2441ECAEBC2008F698F /* ConsTabBarViewController.swift */; };
 		CDB3D24B1ECB28EB008F698F /* Right.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB3D24A1ECB28EB008F698F /* Right.png */; };
 		CDB3D24D1ECB29F4008F698F /* chop_left.png in Resources */ = {isa = PBXBuildFile; fileRef = CDB3D24C1ECB29F4008F698F /* chop_left.png */; };
-		CDB5FA911EC31E7B0007CC1D /* finces.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDB5FA901EC31E7B0007CC1D /* finces.jpg */; };
+		CDB3D24F1ECB368A008F698F /* ChatDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3D24E1ECB368A008F698F /* ChatDetailsViewController.swift */; };
 		CDB5FA931EC31EB90007CC1D /* fondos-inversion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDB5FA921EC31EB90007CC1D /* fondos-inversion.jpg */; };
 		CDB5FA951EC320EE0007CC1D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5FA941EC320EE0007CC1D /* LoginViewController.swift */; };
 		CDB5FA971EC322770007CC1D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5FA961EC322770007CC1D /* Extension.swift */; };
@@ -64,6 +69,11 @@
 		CD1EAE411EC9B698006B57C9 /* ConsMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsMoreViewController.swift; sourceTree = "<group>"; };
 		CD1EAE431EC9BAA8006B57C9 /* ConsMoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsMoreTableViewCell.swift; sourceTree = "<group>"; };
 		CD1EAE451EC9CA0C006B57C9 /* CustMoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustMoreTableViewCell.swift; sourceTree = "<group>"; };
+		CD2F157C1ECC1FEE008D7D31 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CD2F157E1ECC22B1008D7D31 /* ic_login_consultant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ic_login_consultant.jpg; sourceTree = "<group>"; };
+		CD2F15801ECC25BD008D7D31 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		CD2F15821ECC301E008D7D31 /* Final-Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Final-Logo.jpg"; sourceTree = "<group>"; };
+		CD2F15841ECC313E008D7D31 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		CD3349861EC43D3C00FB011A /* ConsultantLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultantLoginViewController.swift; sourceTree = "<group>"; };
 		CD3349881EC442D000FB011A /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
 		CD33498A1EC46AA800FB011A /* ConsultantRegViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultantRegViewController.swift; sourceTree = "<group>"; };
@@ -86,7 +96,7 @@
 		CDB3D2441ECAEBC2008F698F /* ConsTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsTabBarViewController.swift; sourceTree = "<group>"; };
 		CDB3D24A1ECB28EB008F698F /* Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Right.png; sourceTree = "<group>"; };
 		CDB3D24C1ECB29F4008F698F /* chop_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chop_left.png; sourceTree = "<group>"; };
-		CDB5FA901EC31E7B0007CC1D /* finces.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = finces.jpg; sourceTree = "<group>"; };
+		CDB3D24E1ECB368A008F698F /* ChatDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetailsViewController.swift; sourceTree = "<group>"; };
 		CDB5FA921EC31EB90007CC1D /* fondos-inversion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fondos-inversion.jpg"; sourceTree = "<group>"; };
 		CDB5FA941EC320EE0007CC1D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CDB5FA961EC322770007CC1D /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
@@ -168,6 +178,10 @@
 				CD79A4911EC71C1D0078CDAE /* ConsPaymentViewController.swift */,
 				CD1EAE371EC98AE9006B57C9 /* ConsHistoryViewController.swift */,
 				CD1EAE411EC9B698006B57C9 /* ConsMoreViewController.swift */,
+				CDB3D24E1ECB368A008F698F /* ChatDetailsViewController.swift */,
+				CD2F157C1ECC1FEE008D7D31 /* ProfileViewController.swift */,
+				CD2F15801ECC25BD008D7D31 /* ChangePasswordViewController.swift */,
+				CD2F15841ECC313E008D7D31 /* AboutUsViewController.swift */,
 				CDB5FA961EC322770007CC1D /* Extension.swift */,
 				CD79A4931EC71E5A0078CDAE /* TableViewCell */,
 				CDF2F8181EBDB4EB00E45D64 /* Resources */,
@@ -183,12 +197,13 @@
 		CDF2F8181EBDB4EB00E45D64 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CD2F15821ECC301E008D7D31 /* Final-Logo.jpg */,
+				CD2F157E1ECC22B1008D7D31 /* ic_login_consultant.jpg */,
 				CDB3D24C1ECB29F4008F698F /* chop_left.png */,
 				CDB3D24A1ECB28EB008F698F /* Right.png */,
 				CDB3D2421ECAE5FB008F698F /* quora-128.png */,
 				CDB3D2401ECAC772008F698F /* Logo-Actual-Size.png */,
 				CDF2F8191EBDB50A00E45D64 /* login_screen_background.jpg */,
-				CDB5FA901EC31E7B0007CC1D /* finces.jpg */,
 				CD3349881EC442D000FB011A /* Untitled.png */,
 				CDB5FA921EC31EB90007CC1D /* fondos-inversion.jpg */,
 				CD456D9D1EC5E58F0006F788 /* ic_experties_100.png */,
@@ -264,11 +279,11 @@
 				CDF2F81A1EBDB50A00E45D64 /* login_screen_background.jpg in Resources */,
 				CD79A4901EC6FB360078CDAE /* user.png in Resources */,
 				CD456D9C1EC5E5840006F788 /* ic_money_100.png in Resources */,
+				CD2F157F1ECC22B1008D7D31 /* ic_login_consultant.jpg in Resources */,
 				CDB3D24D1ECB29F4008F698F /* chop_left.png in Resources */,
 				CD456DA01EC5E5980006F788 /* ic_expert_meeting_100.png in Resources */,
 				CDB3D2411ECAC772008F698F /* Logo-Actual-Size.png in Resources */,
 				CDB5FA931EC31EB90007CC1D /* fondos-inversion.jpg in Resources */,
-				CDB5FA911EC31E7B0007CC1D /* finces.jpg in Resources */,
 				CDB3D24B1ECB28EB008F698F /* Right.png in Resources */,
 				CDB3D2431ECAE5FC008F698F /* quora-128.png in Resources */,
 				CD3349891EC442D000FB011A /* Untitled.png in Resources */,
@@ -276,6 +291,7 @@
 				CD456D9E1EC5E58F0006F788 /* ic_experties_100.png in Resources */,
 				CD456D9A1EC5D12C0006F788 /* ic_queries_100.png in Resources */,
 				CDF2F8091EBDB03D00E45D64 /* Main.storyboard in Resources */,
+				CD2F15831ECC301E008D7D31 /* Final-Logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1EAE3A1EC98EB0006B57C9 /* ConsAnswerTableViewCell.swift in Sources */,
+				CDB3D24F1ECB368A008F698F /* ChatDetailsViewController.swift in Sources */,
 				CDB5FA971EC322770007CC1D /* Extension.swift in Sources */,
 				CD33498F1EC494D800FB011A /* ConsultantSubmitViewController.swift in Sources */,
 				CD10515E1EC194A10094659C /* PaymentViewController.swift in Sources */,
@@ -294,9 +311,11 @@
 				CDF2F81C1EBDD79100E45D64 /* TabBarViewController.swift in Sources */,
 				CD79A4921EC71C1D0078CDAE /* ConsPaymentViewController.swift in Sources */,
 				CDF2F80C1EBDB03D00E45D64 /* Finaqa.xcdatamodeld in Sources */,
+				CD2F15811ECC25BD008D7D31 /* ChangePasswordViewController.swift in Sources */,
 				CD1EAE381EC98AEA006B57C9 /* ConsHistoryViewController.swift in Sources */,
 				CD1EAE401EC9AA72006B57C9 /* CustAnswerTableViewCell.swift in Sources */,
 				CDF2F81E1EBDE51100E45D64 /* AnswerViewController.swift in Sources */,
+				CD2F157D1ECC1FEE008D7D31 /* ProfileViewController.swift in Sources */,
 				CDB5FA951EC320EE0007CC1D /* LoginViewController.swift in Sources */,
 				CD79A4971EC73DC20078CDAE /* CustConsultingViewController.swift in Sources */,
 				CD51E1951EC070F0002B8287 /* MoreViewController.swift in Sources */,
@@ -314,6 +333,7 @@
 				CD1EAE421EC9B698006B57C9 /* ConsMoreViewController.swift in Sources */,
 				CD79A48E1EC6F16F0078CDAE /* ConstAnswerViewController.swift in Sources */,
 				CD1EAE3C1EC98ED6006B57C9 /* ConsHistoryTableViewCell.swift in Sources */,
+				CD2F15851ECC313E008D7D31 /* AboutUsViewController.swift in Sources */,
 				CD79A48C1EC6D5A40078CDAE /* QueryAnswerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

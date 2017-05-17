@@ -12,7 +12,7 @@ class MoreViewController: UIViewController,UITableViewDataSource,UITableViewDele
     
   
     @IBOutlet var tableView: UITableView!
-    let data = [["About us","Contact us"], ["My profile","Change password","Bank details"]]
+    let data = [["About us","Contact us"], ["My profile","Change password"]]
     let headerTitles = ["Company Information", "My profile"]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +51,39 @@ class MoreViewController: UIViewController,UITableViewDataSource,UITableViewDele
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 40
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if (indexPath as NSIndexPath).section == 0 {
+            if (indexPath as NSIndexPath).row == 0
+            {
+                let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let vc: UIViewController = storyboard.instantiateViewController(withIdentifier: "AboutUsViewController")
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
+            else if (indexPath as NSIndexPath).row == 1
+            {
+                let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let vc: UIViewController = storyboard.instantiateViewController(withIdentifier: "AboutUsViewController")
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
+        }
+
+        if (indexPath as NSIndexPath).section == 1 {
+            if (indexPath as NSIndexPath).row == 0
+            {
+            let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc: UIViewController = storyboard.instantiateViewController(withIdentifier: "ProfileViewController")
+            self.navigationController?.pushViewController(vc, animated: true)
+            }
+            else if (indexPath as NSIndexPath).row == 1
+            {
+                let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let vc: UIViewController = storyboard.instantiateViewController(withIdentifier: "ChangePasswordViewController")
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
+        }
+
     }
     
 }
