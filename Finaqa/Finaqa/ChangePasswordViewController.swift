@@ -24,7 +24,7 @@ class ChangePasswordViewController: UIViewController {
     }
     
     override func viewDidLayoutSubviews() {
-        self.resetButtonOutlet.roundedButton()
+        
         self.subView.roundedGreyBorder()
         
     }

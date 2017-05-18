@@ -12,7 +12,7 @@ class MoreViewController: UIViewController,UITableViewDataSource,UITableViewDele
     
   
     @IBOutlet var tableView: UITableView!
-    let data = [["About us","Contact us"], ["My profile","Change password"]]
+    let data = [["About us","Contact us"], ["My profile","Change password","Logout"]]
     let headerTitles = ["Company Information", "My profile"]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -81,6 +81,12 @@ class MoreViewController: UIViewController,UITableViewDataSource,UITableViewDele
                 let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
                 let vc: UIViewController = storyboard.instantiateViewController(withIdentifier: "ChangePasswordViewController")
                 self.navigationController?.pushViewController(vc, animated: true)
+            }
+            else if (indexPath as NSIndexPath).row == 2
+            {
+                let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let vc: UIViewController = storyboard.instantiateViewController(withIdentifier: "ViewController")
+                self.present(vc, animated: true, completion: nil)
             }
         }
 

@@ -26,6 +26,7 @@
 		CD33498B1EC46AA800FB011A /* ConsultantRegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD33498A1EC46AA800FB011A /* ConsultantRegViewController.swift */; };
 		CD33498D1EC472BE00FB011A /* ConsRegDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD33498C1EC472BE00FB011A /* ConsRegDetailViewController.swift */; };
 		CD33498F1EC494D800FB011A /* ConsultantSubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD33498E1EC494D800FB011A /* ConsultantSubmitViewController.swift */; };
+		CD4053421ECD661000BEBA1E /* BankDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4053411ECD661000BEBA1E /* BankDetailViewController.swift */; };
 		CD456D9A1EC5D12C0006F788 /* ic_queries_100.png in Resources */ = {isa = PBXBuildFile; fileRef = CD456D991EC5D12C0006F788 /* ic_queries_100.png */; };
 		CD456D9C1EC5E5840006F788 /* ic_money_100.png in Resources */ = {isa = PBXBuildFile; fileRef = CD456D9B1EC5E5840006F788 /* ic_money_100.png */; };
 		CD456D9E1EC5E58F0006F788 /* ic_experties_100.png in Resources */ = {isa = PBXBuildFile; fileRef = CD456D9D1EC5E58F0006F788 /* ic_experties_100.png */; };
@@ -79,6 +80,7 @@
 		CD33498A1EC46AA800FB011A /* ConsultantRegViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultantRegViewController.swift; sourceTree = "<group>"; };
 		CD33498C1EC472BE00FB011A /* ConsRegDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsRegDetailViewController.swift; sourceTree = "<group>"; };
 		CD33498E1EC494D800FB011A /* ConsultantSubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultantSubmitViewController.swift; sourceTree = "<group>"; };
+		CD4053411ECD661000BEBA1E /* BankDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankDetailViewController.swift; sourceTree = "<group>"; };
 		CD456D991EC5D12C0006F788 /* ic_queries_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_queries_100.png; sourceTree = "<group>"; };
 		CD456D9B1EC5E5840006F788 /* ic_money_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_money_100.png; sourceTree = "<group>"; };
 		CD456D9D1EC5E58F0006F788 /* ic_experties_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_experties_100.png; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				CD2F157C1ECC1FEE008D7D31 /* ProfileViewController.swift */,
 				CD2F15801ECC25BD008D7D31 /* ChangePasswordViewController.swift */,
 				CD2F15841ECC313E008D7D31 /* AboutUsViewController.swift */,
+				CD4053411ECD661000BEBA1E /* BankDetailViewController.swift */,
 				CDB5FA961EC322770007CC1D /* Extension.swift */,
 				CD79A4931EC71E5A0078CDAE /* TableViewCell */,
 				CDF2F8181EBDB4EB00E45D64 /* Resources */,
@@ -321,6 +324,7 @@
 				CD51E1951EC070F0002B8287 /* MoreViewController.swift in Sources */,
 				CDF2F8061EBDB03C00E45D64 /* ViewController.swift in Sources */,
 				CD33498B1EC46AA800FB011A /* ConsultantRegViewController.swift in Sources */,
+				CD4053421ECD661000BEBA1E /* BankDetailViewController.swift in Sources */,
 				CDB3D2451ECAEBC2008F698F /* ConsTabBarViewController.swift in Sources */,
 				CDB5FA991EC336820007CC1D /* RegisterCustViewController.swift in Sources */,
 				CDF2F8041EBDB03C00E45D64 /* AppDelegate.swift in Sources */,
